@@ -3,3 +3,4 @@
 3.Arduino RGB LED:https://wokwi.com/projects/334340428564267602
 4.LCD: https://wokwi.com/projects/334973098919985748
 5.servo motor: https://wokwi.com/projects/334977394006819411
+6.servo motor potentiometer slide:https://wokwi.com/projects/334979427891937876
