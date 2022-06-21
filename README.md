@@ -8,3 +8,4 @@
 8. BUzzer: https://wokwi.com/projects/335064951298196051
 9. buzzer using push Button: https://wokwi.com/projects/335066519134274130
 10. buzzer using push Button-long press: https://wokwi.com/projects/335070499832857171
+11. Ultrasonic sensor:https://wokwi.com/projects/335071675085226580
