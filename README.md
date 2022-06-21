@@ -7,4 +7,4 @@
 7. Servo motor using 2 for loops(frwrd&bckwrd):https://wokwi.com/projects/334981103304573523
 8. BUzzer: https://wokwi.com/projects/335064951298196051
 9. buzzer using push Button: https://wokwi.com/projects/335066519134274130
-10. 
+10. buzzer using push Button-long press: https://wokwi.com/projects/335070499832857171
