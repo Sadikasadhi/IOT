@@ -1,14 +1,14 @@
 Arduino LED: https://wokwi.com/projects/333715280525001300
 
- 1.Arduino 3 LED:https://wokwi.com/projects/334348041107538516 <br><br>
+ 1. Arduino 3 LED:https://wokwi.com/projects/334348041107538516 <br><br>
 
- 2.Arduino RGB LED:https://wokwi.com/projects/334340428564267602<br>
+ 2. Arduino RGB LED:https://wokwi.com/projects/334340428564267602<br>
 
- 3.LCD: https://wokwi.com/projects/334973098919985748<br>
+ 3. LCD: https://wokwi.com/projects/334973098919985748<br>
 
- 4.servo motor: https://wokwi.com/projects/334977394006819411<br>
+ 4. Servo motor: https://wokwi.com/projects/334977394006819411<br>
 
- 5.servo motor potentiometer slide:https://wokwi.com/projects/334979427891937876<br>
+ 5. Servo motor potentiometer slide:https://wokwi.com/projects/334979427891937876<br>
 
  6. Servo motor using 2 for loops(frwrd&bckwrd):https://wokwi.com/projects/334981103304573523<br>
 
