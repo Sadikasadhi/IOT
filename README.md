@@ -1,6 +1,6 @@
 Arduino LED: https://wokwi.com/projects/333715280525001300
 
- 1. Arduino 3 LED:https://wokwi.com/projects/334348041107538516 <br><br>
+ 1. Arduino 3 LED:https://wokwi.com/projects/334348041107538516 <br>
 
  2. Arduino RGB LED:https://wokwi.com/projects/334340428564267602<br>
 
