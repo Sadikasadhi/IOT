@@ -16,7 +16,7 @@ Arduino LED: https://wokwi.com/projects/333715280525001300
  
  8. Buzzer using push Button: https://wokwi.com/projects/335066519134274130<br>
 
-  8* Buzzer using push Button & LED: https://wokwi.com/projects/335616316076458578<br>
+     8* Buzzer using push Button & LED: https://wokwi.com/projects/335616316076458578<br>
    
  9. Buzzer using push Button-long press: https://wokwi.com/projects/335070499832857171<br>
     
