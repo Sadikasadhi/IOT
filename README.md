@@ -11,3 +11,4 @@ Arduino LED: https://wokwi.com/projects/333715280525001300
 9. Buzzer using push Button-long press: https://wokwi.com/projects/335070499832857171
 10. Ultrasonic sensor:https://wokwi.com/projects/335071675085226580
 11. Ultrasonic sensor+buzzer: https://wokwi.com/projects/335073847080387154
+12.  Ultrasonic sensor with buzzer & LED:  https://wokwi.com/projects/335610859327849042
