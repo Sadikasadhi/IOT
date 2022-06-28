@@ -10,7 +10,9 @@ Arduino LED: https://wokwi.com/projects/333715280525001300
 
  5. Servo motor potentiometer slide:https://wokwi.com/projects/334979427891937876<br>
 
- 6. Servo motor using 2 for loops(frwrd&bckwrd):https://wokwi.com/projects/334981103304573523<br>
+ 6. Servo motor potentiometer+push button: https://wokwi.com/projects/335701119415091795
+ 
+       Servo motor using 2 for loops(frwrd&bckwrd):https://wokwi.com/projects/334981103304573523<br>
 
  7. Buzzer: https://wokwi.com/projects/335064951298196051<br>
  
