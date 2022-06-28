@@ -27,3 +27,5 @@ Arduino LED: https://wokwi.com/projects/333715280525001300
  11. Ultrasonic sensor+buzzer: https://wokwi.com/projects/335073847080387154<br>
 
  12.  Ultrasonic sensor with buzzer & LED:  https://wokwi.com/projects/335610859327849042<br>
+ 
+ 13. potentiometer with lED:https://wokwi.com/projects/335702269747003986<br>
