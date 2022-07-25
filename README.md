@@ -32,9 +32,14 @@ Arduino LED: https://wokwi.com/projects/333715280525001300
   
  14. Multipple ultrasonic sensor: https://wokwi.com/projects/335706874922926676
  
+ 15. DHT22(Humidity and Temperature sensor): https://wokwi.com/projects/338145995428725330
+ 
+ 16. DHT22 + LCD(Humidity and Temperature sensor) :https://wokwi.com/projects/338146515814974035
+ 
 ****************************************************************************************************<br>
 
 ESP32 LED:https://wokwi.com/projects/336877332872561236
-1. ESP32 3 LED:https://wokwi.com/projects/336882445805683282
+
+1.ESP32 3 LED:https://wokwi.com/projects/336882445805683282
 
 2.ESP32 RGB LED:https://wokwi.com/projects/336879976249819732
