@@ -86,7 +86,7 @@ void loop() {<BR>
   displayColor(0b111);<BR>
   delay(2000);<BR>
 <BR>
-
+ 
 }<BR>
 void displayColor(byte color)<BR>
 {<BR>
@@ -94,7 +94,7 @@ void displayColor(byte color)<BR>
   digitalWrite(D6,!bitRead(color,1));<BR>
   digitalWrite(D7,!bitRead(color,0));<BR>
 }<BR>
- 
+ ----------------------------------------
  
 const int buzzer = 2;//D4 <BR>
 void setup(){<BR>
@@ -111,7 +111,7 @@ void loop(){<BR>
   delay(1000);        // ...for 1sec<BR>
   
 }<BR>
- 
+ ----------------------------------------------
 #include <DHT.h>;<BR><BR>
 #define DHTPIN 2     // what pin we're connected to<BR>
 #define DHTTYPE DHT22   // DHT 22  (AM2302)<BR>
@@ -141,7 +141,7 @@ void loop()<BR>
 }<BR>
 <BR>
  
- 
+ --------------------------------------------------------
  const int trigPin = 12;<BR>
 const int echoPin = 14;<BR>
 
@@ -194,3 +194,4 @@ void loop() {<BR>
   
   delay(1000);<BR>
 }<BR>
+------------------------------------------------------
