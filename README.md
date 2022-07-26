@@ -89,11 +89,12 @@ void loop() {<BR>
  
 }<BR>
 void displayColor(byte color)<BR>
-{<BR>
+{
   digitalWrite(D5,!bitRead(color,2));<BR>
   digitalWrite(D6,!bitRead(color,1));<BR>
   digitalWrite(D7,!bitRead(color,0));<BR>
 }<BR>
+ 
  ----------------------------------------
  
 const int buzzer = 2;//D4 <BR>
@@ -192,6 +193,6 @@ void loop() {<BR>
   Serial.print("Distance (inch): ");<BR>
   Serial.println(distanceInch);<BR>
  
-  delay(1000);<BR>
+  delay(1000);
 }<BR>
 ------------------------------------------------------
