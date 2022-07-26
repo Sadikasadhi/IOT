@@ -111,5 +111,86 @@ void loop(){<BR>
   delay(1000);        // ...for 1sec<BR>
   
 }<BR>
+ 
+#include <DHT.h>;<BR><BR>
+#define DHTPIN 2     // what pin we're connected to<BR>
+#define DHTTYPE DHT22   // DHT 22  (AM2302)<BR>
+DHT dht(DHTPIN, DHTTYPE); //// Initialize DHT sensor for normal 16mhz Arduino<BR>
+//Variables<BR>
+int chk;<BR>
+float hum;  //Stores humidity value<BR>
+float temp; //Stores temperature value<BR>
+void setup()<BR>
+{<BR>
+  Serial.begin(9600);<BR>
+  dht.begin();<BR>
+}<BR>
+void loop()<BR>
+{<BR>
+    delay(2000);<BR>
+    //Read data and store it to variables hum and temp<BR>
+    hum = dht.readHumidity();<BR>
+    temp= dht.readTemperature();<BR>
+    //Print temp and humidity values to serial monitor<BR>
+    Serial.print("Humidity: ");<BR>
+    Serial.print(hum);<BR>
+    Serial.print(" %, Temp: ");<BR>
+    Serial.print(temp);<BR>
+    Serial.println(" Celsius");<BR>
+    delay(1000); //Delay 2 sec.<BR>
+}<BR>
+<BR>
+ 
+ 
+ const int trigPin = 12;<BR>
+const int echoPin = 14;<BR>
 
 
+//define sound velocity in cm/uS<BR>
+#define SOUND_VELOCITY 0.034<BR>
+#define CM_TO_INCH 0.393701<BR>
+
+long duration;<BR>
+float distanceCm;<BR>
+float distanceInch;<BR>
+int LED = D0;<BR>
+
+void setup() {<BR>
+  Serial.begin(9600); // Starts the serial communication<BR>
+  pinMode(trigPin, OUTPUT); // Sets the trigPin as an Output<BR>
+  pinMode(echoPin, INPUT); // Sets the echoPin as an Input<BR>
+
+  pinMode(LED,OUTPUT);<BR>
+}<BR>
+
+void loop() {<BR>
+  // Clears the trigPin<BR>
+  digitalWrite(trigPin, LOW);<BR>
+  delayMicroseconds(2);<BR>
+  // Sets the trigPin on HIGH state for 10 micro seconds<BR>
+  digitalWrite(trigPin, HIGH);<BR>
+  delayMicroseconds(10);<BR>
+  digitalWrite(trigPin, LOW);<BR>
+  
+  // Reads the echoPin, returns the sound wave travel time in microseconds<BR>
+  duration = pulseIn(echoPin, HIGH);<BR>
+  
+  // Calculate the distance<BR>
+  distanceCm = duration * SOUND_VELOCITY/2;<BR>
+  
+  // Convert to inches<BR>
+  distanceInch = distanceCm * CM_TO_INCH;<BR>
+  if(distanceInch < 10)<BR>
+
+  digitalWrite(LED,HIGH);<BR>
+  else<BR>
+  digitalWrite(LED,LOW); <BR>
+  
+  // Prints the distance on the Serial Monitor<BR>
+  Serial.print("Distance (cm): ");<BR>
+  Serial.println(distanceCm);<BR>
+  Serial.print("Distance (inch): ");<BR>
+  Serial.println(distanceInch);<BR>
+  
+  delay(1000);<BR>
+}<BR>
