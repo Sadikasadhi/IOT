@@ -8,9 +8,9 @@ Arduino LED: https://wokwi.com/projects/333715280525001300
 
  4. Servo motor: https://wokwi.com/projects/334977394006819411<br>
 
- 5. Servo motor potentiometer slide:https://wokwi.com/projects/334979427891937876<br>
+ 5. Servo motor +potentiometer slide:https://wokwi.com/projects/334979427891937876<br>
 
- 6. Servo motor potentiometer+push button: https://wokwi.com/projects/335701119415091795
+ 6. Servo motor +push button: https://wokwi.com/projects/335701119415091795
  
        Servo motor using 2 for loops(frwrd&bckwrd):https://wokwi.com/projects/334981103304573523<br>
 
@@ -52,5 +52,9 @@ ESP32 LED:https://wokwi.com/projects/336877332872561236
       https://wokwi.com/projects/338224466542723668<br>
 3. To interface DHT11(DHT22) sensor with Arduino and write a program to print temperature and humidity readings.<br>
       https://wokwi.com/projects/338145995428725330 <br>
-4. To interface motor using relay with Arduino and write a program to turn ON motor when push button is pressed<br>
+4. To interface motor using relay with Arduino and write a program to turn ON motor when push button is pressed.<br>
+      https://wokwi.com/projects/335701119415091795 <br>
 5. To interface LCD with Arduino and write a program to print temperature and humidity reading on it.<br>
+      https://wokwi.com/projects/338146515814974035 <br>
+6. To interface Bluetooth with Arduion and write a program to send sensor data to smartphone using Bluetooth.<br>
+7. To interface Bluetooth with Arduion and write a program to turn LED ON/OFF when '1'/'0' is received from smartphone using Bluetooth.<br>
