@@ -46,4 +46,7 @@ ESP32 LED:https://wokwi.com/projects/336877332872561236
 
 
 *****************************************************************************
-2.https://wokwi.com/projects/338224466542723668
+1. To interface LED/Buzzer with Arduino and write a program to turn on LED for 1 sec after every 2 seconds.<br>
+     https://wokwi.com/projects/334348041107538516 <br>
+2. To interface Push button/Digital sensor(IR/LDR) with Arduino and write a program to turn on LED when push button is pressed or at sensor detection.  <br>
+      https://wokwi.com/projects/338224466542723668<br>
