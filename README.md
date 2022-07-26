@@ -58,3 +58,40 @@ ESP32 LED:https://wokwi.com/projects/336877332872561236
       https://wokwi.com/projects/338146515814974035 <br>
 6. To interface Bluetooth with Arduion and write a program to send sensor data to smartphone using Bluetooth.<br>
 7. To interface Bluetooth with Arduion and write a program to turn LED ON/OFF when '1'/'0' is received from smartphone using Bluetooth.<br>
+
+
+
+*******************************************************************************************
+void setup() {
+  pinMode(D5, OUTPUT);
+  pinMode(D6, OUTPUT);
+  pinMode(D7, OUTPUT);
+
+
+}
+
+void loop() {
+  displayColor(0b100);
+  delay(2000);
+  displayColor(0b010);
+  delay(2000);
+  displayColor(0b001);
+  delay(2000);
+  displayColor(0b101);
+  delay(2000);
+  displayColor(0b011);
+  delay(2000);
+  displayColor(0b110);
+  delay(2000);
+  displayColor(0b111);
+  delay(2000);
+
+
+}
+void displayColor(byte color)
+{
+  digitalWrite(D5,!bitRead(color,2));
+  digitalWrite(D6,!bitRead(color,1));
+  digitalWrite(D7,!bitRead(color,0));
+}
+
