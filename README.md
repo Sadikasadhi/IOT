@@ -187,7 +187,7 @@ void loop() {<BR>
   else<BR>
   digitalWrite(LED,LOW); <BR>
   
-  // Prints the distance on the Serial Monitor<BR>
+  //Prints the distance on the Serial Monitor<BR>
   Serial.print("Distance (cm): ");<BR>
   Serial.println(distanceCm);<BR>
   Serial.print("Distance (inch): ");<BR>
