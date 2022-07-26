@@ -94,4 +94,22 @@ void displayColor(byte color)<BR>
   digitalWrite(D6,!bitRead(color,1));<BR>
   digitalWrite(D7,!bitRead(color,0));<BR>
 }<BR>
+ 
+ 
+const int buzzer = 2;//D4 <BR>
+void setup(){<BR>
+ 
+  pinMode(buzzer, OUTPUT); // Set buzzer - pin 2 as an output<BR>
+
+}<BR>
+
+void loop(){<BR>
+ 
+  tone(buzzer, 50); // Send 1KHz sound signal...<BR>
+  delay(100);        // ...for 1 sec<BR>
+  noTone(buzzer);     // Stop sound...<BR>
+  delay(1000);        // ...for 1sec<BR>
+  
+}<BR>
+
 
