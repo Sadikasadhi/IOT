@@ -62,36 +62,36 @@ ESP32 LED:https://wokwi.com/projects/336877332872561236
 
 
 *******************************************************************************************
-void setup() {
-  pinMode(D5, OUTPUT);
-  pinMode(D6, OUTPUT);
-  pinMode(D7, OUTPUT);
+void setup() {<BR>
+  pinMode(D5, OUTPUT);<BR>
+  pinMode(D6, OUTPUT);<BR>
+  pinMode(D7, OUTPUT);<BR>
 
 
-}
+}<BR>
 
-void loop() {
-  displayColor(0b100);
-  delay(2000);
-  displayColor(0b010);
-  delay(2000);
-  displayColor(0b001);
-  delay(2000);
-  displayColor(0b101);
-  delay(2000);
-  displayColor(0b011);
-  delay(2000);
-  displayColor(0b110);
-  delay(2000);
-  displayColor(0b111);
-  delay(2000);
+void loop() {<BR>
+  displayColor(0b100);<BR>
+  delay(2000);<BR>
+  displayColor(0b010);<BR>
+  delay(2000);<BR>
+  displayColor(0b001);<BR>
+  delay(2000);<BR>
+  displayColor(0b101);<BR>
+  delay(2000);<BR>
+  displayColor(0b011);<BR>
+  delay(2000);<BR>
+  displayColor(0b110);<BR>
+  delay(2000);<BR>
+  displayColor(0b111);<BR>
+  delay(2000);<BR>
+<BR>
 
-
-}
-void displayColor(byte color)
-{
-  digitalWrite(D5,!bitRead(color,2));
-  digitalWrite(D6,!bitRead(color,1));
-  digitalWrite(D7,!bitRead(color,0));
-}
+}<BR>
+void displayColor(byte color)<BR>
+{<BR>
+  digitalWrite(D5,!bitRead(color,2));<BR>
+  digitalWrite(D6,!bitRead(color,1));<BR>
+  digitalWrite(D7,!bitRead(color,0));<BR>
+}<BR>
 
