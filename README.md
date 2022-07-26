@@ -192,7 +192,6 @@ void loop() {<BR>
   Serial.println(distanceCm);<BR>
   Serial.print("Distance (inch): ");<BR>
   Serial.println(distanceInch);<BR>
- 
-  delay(1000);
+  delay(1000);<BR
 }<BR>
 ------------------------------------------------------
