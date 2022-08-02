@@ -115,34 +115,35 @@ void loop(){<BR>
 }<BR>
  ----------------------------------------------
  **DHT11**<br>
-#include <DHT.h>;<BR><BR>
-#define DHTPIN 2     // what pin we're connected to<BR>
-#define DHTTYPE DHT22   // DHT 22  (AM2302)<BR>
-DHT dht(DHTPIN, DHTTYPE); //// Initialize DHT sensor for normal 16mhz Arduino<BR>
-//Variables<BR>
-int chk;<BR>
-float hum;  //Stores humidity value<BR>
-float temp; //Stores temperature value<BR>
-void setup()<BR>
-{<BR>
-  Serial.begin(9600);<BR>
-  dht.begin();<BR>
-}<BR>
-void loop()<BR>
-{<BR>
-    delay(2000);<BR>
-    //Read data and store it to variables hum and temp<BR>
-    hum = dht.readHumidity();<BR>
-    temp= dht.readTemperature();<BR>
-    //Print temp and humidity values to serial monitor<BR>
-    Serial.print("Humidity: ");<BR>
-    Serial.print(hum);<BR>
-    Serial.print(" %, Temp: ");<BR>
-    Serial.print(temp);<BR>
-    Serial.println(" Celsius");<BR>
-    delay(1000); //Delay 2 sec.<BR>
-}<BR>
-<BR>
+ #include <Adafruit_Sensor.h><br>
+    #include <DHT.h>;<br>
+    #define DHTPIN 2     // what pin we're connected to<br>
+    #define DHTTYPE DHT11   // DHT 22  (AM2302)<br>
+    DHT dht(DHTPIN, DHTTYPE); //// Initialize DHT sensor for normal 16mhz Arduino<br>
+    //Variables<br>
+    int chk;<br>
+    float hum;  //Stores humidity value<br>
+    float temp; //Stores temperature value<br>
+    void setup()<br>
+    {<br>
+      Serial.begin(9600);<br>
+      dht.begin();<br>
+    }<br>
+    void loop()<br>
+   {<br>
+       delay(2000);<br>
+       //Read data and store it to variables hum and temp<br>
+       hum = dht.readHumidity();<br>
+       temp= dht.readTemperature();<br>
+       //Print temp and humidity values to serial monitor<br>
+       Serial.print("Humidity: ");<br>
+       Serial.print(hum);<br>
+       Serial.print(" %, Temp: ");<br>
+       Serial.print(temp);<br>
+       Serial.println(" Celsius");<br>
+       delay(1000); //Delay 2 sec.<br>
+   }<br>
+ 
  
  --------------------------------------------------------
  const int trigPin = 12;<BR>
