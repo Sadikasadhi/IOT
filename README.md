@@ -195,3 +195,29 @@ void loop() {<BR>
   delay(1000);<BR>
 }<BR>
 ------------------------------------------------------
+**IR Sensor**<BR>
+int ir=D7;<BR>
+int led=D5;<BR>
+void setup() {<BR>
+  // put your setup code here, to run once:<BR>
+  pinMode(ir,INPUT);<BR>
+    pinMode(led,OUTPUT);<BR>
+    Serial.begin(9600);<BR>
+    
+}<BR>
+
+void loop() {<BR>
+  // put your main code here, to run repeatedly:<BR>
+  int irvalue=digitalRead(ir);<BR>
+  if(irvalue==LOW)<BR>
+  {<BR>
+    Serial.println("LOW");<BR>
+    digitalWrite(led,HIGH);<BR>
+  }<BR>
+  else<BR>
+  {<BR>
+    Serial.println("HIGH");<BR>
+    digitalWrite(led,LOW);<BR>
+  }<BR>
+delay(100);<BR>
+}<BR>
