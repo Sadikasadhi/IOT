@@ -62,6 +62,7 @@ ESP32 LED:https://wokwi.com/projects/336877332872561236
 
 
 *******************************************************************************************
+**LED**<br>
 void setup() {<BR>
   pinMode(D5, OUTPUT);<BR>
   pinMode(D6, OUTPUT);<BR>
@@ -96,7 +97,7 @@ void displayColor(byte color)<BR>
 }<BR>
  
  ----------------------------------------
- 
+ **BUZZER**<br>
 const int buzzer = 2;//D4 <BR>
 void setup(){<BR>
  
@@ -113,6 +114,7 @@ void loop(){<BR>
   
 }<BR>
  ----------------------------------------------
+ **DHT11**<br>
 #include <DHT.h>;<BR><BR>
 #define DHTPIN 2     // what pin we're connected to<BR>
 #define DHTTYPE DHT22   // DHT 22  (AM2302)<BR>
