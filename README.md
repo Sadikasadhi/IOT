@@ -201,6 +201,7 @@ void loop() {<BR>
   Serial.println(distanceInch);<BR>
   delay(1000);<BR>
 }<BR>
+ 
 ------------------------------------------------------
 **IR Sensor**<BR>
 int ir=D7;<BR>
