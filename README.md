@@ -50,7 +50,7 @@ Arduino LED: https://wokwi.com/projects/333715280525001300
 2.ESP32 3 LED:https://wokwi.com/projects/336882445805683282  <br> 
 3.ESP32 RGB LED: https://wokwi.com/projects/336879976249819732 <br>
 4. ESP32 RGB LCD: https://wokwi.com/projects/340854854168609362 <br>
-5.servomotor with sliding potentiometer : https://wokwi.com/projects/340857446725583442 <br>
+5.servomotor with sliding potentiometer : https://wokwi.com/projects/340872161402028628<br>
 6. LED_Chaser: https://wokwi.com/projects/340854632473428562
 
 *****************************************************************************
