@@ -36,6 +36,14 @@ Arduino LED: https://wokwi.com/projects/333715280525001300
  
  16. DHT22 + LCD(Humidity and Temperature sensor) :https://wokwi.com/projects/338146515814974035
  
+ 17. LED Chaser : https://wokwi.com/projects/340853047777296978
+ 
+ 18. LDR: https://wokwi.com/projects/340853480657781330
+ 
+ 19. LDR + LED : https://wokwi.com/projects/340853623478026835
+ 
+ 20. IR Receiver + LED : https://wokwi.com/projects/340779619162522195
+ 
 ****************************************************************************************************<br>
 
 ESP32 LED:https://wokwi.com/projects/336877332872561236
