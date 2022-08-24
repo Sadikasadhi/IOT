@@ -203,6 +203,7 @@ void loop() {<BR>
 }<BR>
  
 ------------------------------------------------------
+ 
 **IR Sensor**<BR>
 int ir=D7;<BR>
 int led=D5;<BR>
@@ -229,7 +230,9 @@ void loop() {<BR>
   }<BR>
 delay(100);<BR>
 }<BR>
+ 
 ---------------------------------------------------------------------------------
+ 
 **CHASING LED**<BR>
 int pinsCount=7; // declaring the integer variable pinsCount<BR>
 int pins[] = {D0,D1,D2,D3,D4,D5,D6}; // declaring the array pins[]<BR>
@@ -254,6 +257,7 @@ digitalWrite(pins[i], LOW); // switching the LED at index i off<BR>
 }<BR>
 
 --------------------------------------------------------------------
+ 
  **flood monitoring using thingspeak:**
 
 #include "ThingSpeak.h"<BR>
@@ -323,6 +327,7 @@ ThingSpeak.writeFields(ch_no, write_api);<BR>
 startMillis = currentMillis;<BR>
 }<BR>
 }<BR>
+ 
 -------------------------------------------------------------------------------
 https://wokwi.com/projects/321525495180034642
 
