@@ -51,6 +51,7 @@ Arduino LED: https://wokwi.com/projects/333715280525001300
 3.ESP32 RGB LED: https://wokwi.com/projects/336879976249819732 <br>
 4. ESP32 RGB LCD: https://wokwi.com/projects/340854854168609362 <br>
 5.servomotor with sliding potentiometer : https://wokwi.com/projects/340857446725583442 <br>
+6. LED_Chaser: https://wokwi.com/projects/340854632473428562
 
 *****************************************************************************
 1. To interface LED/Buzzer with Arduino and write a program to turn ON LED for 1 sec after every 2 seconds.<br>
