@@ -229,5 +229,31 @@ void loop() {<BR>
   }<BR>
 delay(100);<BR>
 }<BR>
+---------------------------------------------------------------------------------
+**CHASING LED**<BR>
+int pinsCount=7; // declaring the integer variable pinsCount<BR>
+int pins[] = {D0,D1,D2,D3,D4,D5,D6}; // declaring the array pins[]<BR>
+
+void setup() {<BR>
+for (int i=0; i<pinsCount; i=i+1){ // counting the variable i from 0 to 9<BR>
+pinMode(pins[i], OUTPUT); // initialising the pin at index i of the array of pins as OUTPUT<BR>
+}<BR>
+}<BR>
+void loop() {<BR>
+for (int i=0; i<pinsCount; i=i+1){ // chasing right<BR>
+digitalWrite(pins[i], HIGH); // switching the LED at index i on<BR>
+delay(100); // stopping the program for 100 milliseconds<BR>
+digitalWrite(pins[i], LOW); // switching the LED at index i off<BR>
+}<BR>
+for (int i=pinsCount-1; i>0; i=i-1){ // chasing left (except the outer leds)<BR>
+digitalWrite(pins[i], HIGH); // switching the LED at index i on<BR>
+delay(100); // stopping the program for 100 milliseconds<BR>
+digitalWrite(pins[i], LOW); // switching the LED at index i off<BR>
+
+}<BR>
+}<BR>
+
+--------------------------------------------------------------------
+
 https://wokwi.com/projects/321525495180034642
 
