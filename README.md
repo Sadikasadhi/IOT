@@ -268,17 +268,18 @@ digitalWrite(pins[i], LOW); // switching the LED at index i off<BR>
  
  **flood monitoring using thingspeak:**
 
-#include "ThingSpeak.h"<BR>
+#include <ThingSpeak.h><BR>
 #include <ESP8266WiFi.h><BR>
 const int trigPin1 = D6;<BR>
 const int echoPin1 = D7;<BR>
-#define redled D0<BR>
-#define grnled D1<BR>
-#define BUZZER D5 //buzzer pin unsigned long ch_no = 1053193;//Replace with Thingspeak Channel number<BR>
-const char * write_api = "1WGTOHK9622G57JI";//Replace with Thingspeak write API<BR>
-char auth[] = "mwa0000027193727";<BR>
-char ssid[] = "SATHWIKA";<BR>
-char pass[] = "Mohitha96";<BR>
+#define redled D2<BR>
+#define grnled D4<BR>
+#define BUZZER D1 //buzzer pin<BR>
+unsigned long ch_no =  1841332;//Replace with Thingspeak Channel number<BR>
+const char * write_api = "85PL62D0DSVPLPKF";//Replace with Thingspeak write API<BR>
+char auth[] = "mwa0000027193644";<BR>
+char ssid[] = "Sadika's Galaxy A12";<BR>
+char pass[] = "sadika123";<BR>
 unsigned long startMillis;<BR>
 unsigned long currentMillis;<BR>
 const unsigned long period = 10000;<BR>
@@ -316,16 +317,16 @@ distance1 = duration1 * 0.034 / 2;<BR>
 Serial.println(distance1);<BR>
 if (distance1 <= 400)<BR>
 {<BR>
-digitalWrite(D0, HIGH);<BR>
+digitalWrite(D2, HIGH);<BR>
 tone(BUZZER, 300);<BR>
-digitalWrite(D1, LOW);<BR>
+digitalWrite(D4, LOW);<BR>
 delay(1500);<BR>
 noTone(BUZZER);<BR>
 }<BR>
 else<BR>
 {<BR>
-digitalWrite(D1, HIGH);<BR>
-digitalWrite(D0, LOW);<BR>
+digitalWrite(D4, HIGH);<BR>
+digitalWrite(D2, LOW);<BR>
 }<BR>
 currentMillis = millis();<BR>
 if (currentMillis - startMillis >= period)<BR>
@@ -335,7 +336,6 @@ ThingSpeak.writeFields(ch_no, write_api);<BR>
 startMillis = currentMillis;<BR>
 }<BR>
 }<BR>
- 
 -------------------------------------------------------------------------------
 https://wokwi.com/projects/321525495180034642
 
