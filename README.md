@@ -53,6 +53,21 @@ Arduino LED: https://wokwi.com/projects/333715280525001300
 5.servomotor with sliding potentiometer : https://wokwi.com/projects/340872161402028628<br>
 6. LED_Chaser: https://wokwi.com/projects/340854632473428562
 
+ESP32
+https://wokwi.com/projects/336966830711112275 - LED<br>
+https://wokwi.com/projects/336967978479256147 - 3 LED<br>
+https://wokwi.com/projects/340880463446934098 - RGB<br>
+https://wokwi.com/projects/340882358612787796 - LCD<br>
+https://wokwi.com/projects/340886369600537172 - Servo Motor + Pushbutton<br>
+https://wokwi.com/projects/340888468071645780 - Servo Motor + Sliding Potentiometer<br>
+https://wokwi.com/projects/340890155914101331 - Buzzer + Pushbutton_<br>
+https://wokwi.com/projects/340890489300451922 - Buzzer + UltraSonic Sensor<br>
+https://wokwi.com/projects/340890896679567955 - Potentiometer + LED<br>
+https://wokwi.com/projects/340892440485429842 - DHT22<br>
+https://wokwi.com/projects/340893919446303316 - LED CHASER<br>
+https://wokwi.com/projects/340936317213868626 - LDR<br>
+https://wokwi.com/projects/340936847717827156 - LDR + LED<br>
+
 *****************************************************************************
 1. To interface LED/Buzzer with Arduino and write a program to turn ON LED for 1 sec after every 2 seconds.<br>
      https://wokwi.com/projects/334348041107538516 <br>
