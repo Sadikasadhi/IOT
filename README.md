@@ -53,7 +53,7 @@ Arduino LED: https://wokwi.com/projects/333715280525001300
 5.servomotor with sliding potentiometer : https://wokwi.com/projects/340872161402028628<br>
 6. LED_Chaser: https://wokwi.com/projects/340854632473428562
 
-ESP32
+**ESP32**<br> 
 https://wokwi.com/projects/336966830711112275 - LED<br>
 https://wokwi.com/projects/336967978479256147 - 3 LED<br>
 https://wokwi.com/projects/340880463446934098 - RGB<br>
