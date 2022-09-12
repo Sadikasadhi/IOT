@@ -48,13 +48,14 @@ Arduino LED: https://wokwi.com/projects/333715280525001300
  
  1. Seven segment LED display example: https://wokwi.com/projects/342584951158342226
  
- 2. Analog Joystick with two axes :
+ 2. Analog Joystick with two axes : https://wokwi.com/projects/342586537358131794
  
  3. DHT22 on the ESP32: https://wokwi.com/projects/342586828010816084
  
  4. Display distance on LCD screen with buzzer and LED  :https://wokwi.com/projects/342587221563408980
                                                          https://wokwi.com/projects/342587671958258260
-5. Electronic Safe, powered by an Arduino Uno:     
+                                                         
+5. Electronic Safe, powered by an Arduino Uno: https://wokwi.com/projects/342588904275182164    
 
 6. Arduino LED Graph Bar - Move the potentiometer knob to control the LEDs:https://wokwi.com/projects/342590008467653203
 
