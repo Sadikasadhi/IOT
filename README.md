@@ -44,7 +44,8 @@ Arduino LED: https://wokwi.com/projects/333715280525001300
  
  20. IR Receiver + LED : https://wokwi.com/projects/340779619162522195
  
- <br>*****************************************12/09/2022***********************************************<br>
+ ---------------------------------------**12/09/2022**------------------------------------------------<br>
+ 
  1. Seven segment LED display example: https://wokwi.com/projects/342584951158342226
  
  2. Analog Joystick with two axes :
