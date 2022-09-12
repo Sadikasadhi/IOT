@@ -44,7 +44,7 @@ Arduino LED: https://wokwi.com/projects/333715280525001300
  
  20. IR Receiver + LED : https://wokwi.com/projects/340779619162522195
  
- *****************************************12/09/2022***********************************************
+ <br>*****************************************12/09/2022***********************************************<br>
  1. Seven segment LED display example: https://wokwi.com/projects/342584951158342226
  
  2. Analog Joystick with two axes :
@@ -56,6 +56,7 @@ Arduino LED: https://wokwi.com/projects/333715280525001300
 5. Electronic Safe, powered by an Arduino Uno:     
 
 6. Arduino LED Graph Bar - Move the potentiometer knob to control the LEDs:https://wokwi.com/projects/342590008467653203
+
 ****************************************************************************************************<br>
 **ESP32**<br> 
 1.ESP32 LED:https://wokwi.com/projects/336877332872561236   <br> 
